@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+}
+
+.inner{
+    display: inline-block;
+    width: 45%;
+    height: 50%;
+    background-color: white;
+    padding: 0 5%;
+    position: relative;
+}
+.pallet{
+    display: inline-block;
+    height: 50vh;
+    width: 25%;
+    padding: 0 0 0 10px;
+    float: left;
+    position: relative;
+}
+
+#c2{
+    margin: 0 ;
+    width: 100%;
+}
+
+#red-slider .md-thumb:after, #red-slider .md-track{
+    background-color: red !important;
+    border-color: red !important;
+}
+#red-slider .md-focus-thumb, #red-slider .md-focus-ring{
+    background-color: red;
+}
+
+#blue-slider .md-thumb:after, #blue-slider .md-track{
+    background-color: blue !important;
+    border-color: blue !important;
+}
+#red-slider .md-focus-thumb, #red-slider .md-focus-ring{
+    background-color: blue;
+}
+#green-slider .md-thumb:after, #green-slider .md-track{
+    background-color: green !important;
+    border-color: green !important;
+}
+#green-slider .md-focus-thumb, #green-slider .md-focus-ring{
+    background-color: green;
+}
+
+#color-output{
+    margin: 5% 0 0 5%;
+    height: 200px;
+}
+
+#save-button{
+    position: absolute;
+    bottom: -50px;
+    padding:0;
+    left: 0;
+}
+#reset-button{
+    position: absolute;
+    bottom: -50px;
+    padding:0;
+    left: 50px;
+}
